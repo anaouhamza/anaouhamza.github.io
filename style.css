@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+h1{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Maiandra GD;
+}
+section{
+    position: relative;
+    padding: 10px;
+}
+p{
+    clear: right;
+    position: relative;
+}
+div{
+    position: relative;
+    background-color: gray;
+    border: 3px solid black;
+    
+        
+    
+
+}
+.sub1{
+    float: right;
+    background-color: #FFB6C1;
+    border: 2px solid black;
+    margin: -2.5px -2.5px 0px;
+    width: 170px;
+    padding: 5px;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    font-family: Maiandra GD;
+
+}
+.sub2{
+    float: right;
+    background-color: #FF0000;
+    border: 2px solid black;
+    margin: -2.5px -2.5px 0px;
+    width: 170px;
+    padding: 5px;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    color: white;
+    font-family: Maiandra GD;
+
+}
+.sub3{
+    float: right;
+    background-color: rgb(223, 212, 121);
+    border: 2px solid black;
+    margin: -2.5px -2.5px 0px;
+    width: 170px;
+    padding: 5px;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    font-family: Maiandra GD;
+
+}
+
+.content{
+    padding-top: 7px;
+    padding-left: 10px;
+    font-family: Maiandra GD;
+    height: 130px;
+    overflow: auto;
+}
+
+.row {
+    width: 90%;
+}
+
+@media (min-width: 992px) {
+    .column-lg-4 {
+        float: left;
+        width: 33.33%;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .colmn-md-6 {
+        float: left;
+        width: 50%;
+        
+    }
+    .colmn-md-12 {
+        float: left;
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .colmn-sm-12 {
+        float: left;
+        width: 100%;
+    }
+}
